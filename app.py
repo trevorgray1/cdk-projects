@@ -6,6 +6,6 @@ from cdk_projects.cdk_projects_stack import CdkProjectsStack
 
 
 app = core.App()
-CdkProjectsStack(app, "cdk-projects", env={'region': 'us-east-1'})
+CdkProjectsStack(app, "cdk-projects", env={'region': 'us-west-2'})
 
 app.synth()
